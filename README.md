@@ -59,10 +59,10 @@ Mongo2Go version: 4.1.0
 
 Mongo2Go version: 2.2.16
 
-| Operation    | Count | Mean       | Median     | Standard Deviation | Rejected Outliers | Failures |
-|--------------|-------|------------|------------|--------------------|-------------------|----------|
-| SaveSnapshot | 1000  | 151.144 ms | 122.674 ms | 87.693 ms          | 36                | 1        |
-| LoadSnapshot | 1000  | 28.286 ms  | 23.209 ms  | 10.584 ms          | 13                | 1        |
+| Operation    | Count | Mean       | Median     | Standard Deviation | Outliers | Failures |
+|--------------|-------|------------|------------|--------------------|----------|----------|
+| SaveSnapshot | 1000  | 151.144 ms | 122.674 ms | 87.693 ms          | 36       | 1        |
+| LoadSnapshot | 1000  | 28.286 ms  | 23.209 ms  | 10.584 ms          | 13       | 1        |
 
 ### 1.5.12.1
 
